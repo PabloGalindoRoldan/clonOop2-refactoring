@@ -16,4 +16,17 @@ public class Alquiler {
     public CopiaLibro copia() {
         return this.copia;
     }
+
+    public double determinarMonto(){
+            return copia().libro().calcularMonto(diasAlquilados());
+    }
+
+    public int determinarPuntos(){
+        int puntosAlquilerFrecuente = 1;
+        if ((copia().libro().codigoPrecio() == Libro.NUEVO_LANZAMIENTO)
+                && diasAlquilados() > 1) {
+            puntosAlquilerFrecuente++;
+        }
+        return puntosAlquilerFrecuente;
+    }
 }

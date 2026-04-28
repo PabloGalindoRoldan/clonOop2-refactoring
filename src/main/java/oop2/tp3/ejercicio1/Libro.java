@@ -19,4 +19,29 @@ public class Libro {
     public String nombre() {
         return nombre;
     }
+
+    public double calcularMonto(int dias){
+        if(this.codigoPrecio() == REGULARES){
+                double monto = 2;
+                if (dias > 2)
+                    monto += (dias - 2) * 1.5;
+                return monto;
+        }
+        if(this.codigoPrecio() == INFANTILES){
+            double monto = 1.5;
+            if (dias > 3)
+                monto += (dias - 3) * 1.5;
+            return monto;
+        }
+
+        if(this.codigoPrecio() == NUEVO_LANZAMIENTO){
+            double monto = 1.5;
+            if (dias > 3)
+                monto += (dias - 3) * 1.5;
+            return monto;
+        }
+        return 0;
+    }
+
+
 }

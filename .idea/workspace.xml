@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42dd988b-38ce-4968-bab5-eddc8526fc95" name="Changes" comment="ejercicio opcional adicional">
+      <change afterPath="$PROJECT_DIR$/src/test/java/oop2/tp3/ejercicio1/AlquilerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/entrada/Disco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/entrada/Disco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/salida/Disco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/salida/Disco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/salida/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/refactoring/parametros/salida/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Alquiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Alquiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop2/tp3/ejercicio1/Libro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
     <persistenceIdMap>
       <entry key="_/home/enrique/workspaces/oop2-refactoring" value="3BgIyYpCaC7KvWMybBivNXKloU0" />
       <entry key="_/home/enrique/workspaces/oop2-refactoring/src/main" value="3BZl2qTH6nJmVrB1LXq2XLT0NJw" />
+      <entry key="_C:/Users/Lightning/IdeaProjects/oop2-refactoring" value="3CzBpXcHigau9pQ8XEOVn1Gqr2j" />
     </persistenceIdMap>
   </component>
   <component name="CopilotUserSelectedModel">
@@ -26,6 +29,16 @@
       <entry key="chat-panel" value="GPT-5.3-Codex" />
       <entry key="agent-panel" value="GPT-5.3-Codex" />
     </selectedModels>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +68,11 @@
   "keyToString": {
     "Application.Main.executor": "Debug",
     "Application.oop2.refactoring.parametros.salida.Main.executor": "Debug",
+    "JUnit.AlquilerTest.alquilerLibroNuevoLanzamiento.executor": "Run",
+    "JUnit.AlquilerTest.alquilerLibroRegularMasDeDosDias.executor": "Run",
+    "JUnit.AlquilerTest.executor": "Run",
+    "JUnit.AlquilerTest.test1.executor": "Coverage",
+    "JUnit.AlquilerTest.testMetodoNombreLibro.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -68,29 +86,82 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.oop2.refactoring.parametros.salida.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop2.refactoring.collecting.ejemplo1.Main" />
+  <component name="RunManager" selected="JUnit.AlquilerTest.alquilerLibroRegularMasDeDosDias">
+    <configuration name="AlquilerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop2-refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop2.refactoring.collecting.ejemplo1.*" />
+          <option name="PATTERN" value="oop2.tp3.ejercicio1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio1" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.AlquilerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oop2.refactoring.parametros.salida.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop2.refactoring.parametros.salida.Main" />
+    <configuration name="AlquilerTest.alquilerLibroNuevoLanzamiento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oop2-refactoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop2.refactoring.parametros.salida.*" />
+          <option name="PATTERN" value="oop2.tp3.ejercicio1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio1" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.AlquilerTest" />
+      <option name="METHOD_NAME" value="alquilerLibroNuevoLanzamiento" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlquilerTest.alquilerLibroRegularMasDeDosDias" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio1" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.AlquilerTest" />
+      <option name="METHOD_NAME" value="alquilerLibroRegularMasDeDosDias" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlquilerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio1" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.AlquilerTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlquilerTest.testMetodoNombreLibro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oop2-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop2.tp3.ejercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop2.tp3.ejercicio1" />
+      <option name="MAIN_CLASS_NAME" value="oop2.tp3.ejercicio1.AlquilerTest" />
+      <option name="METHOD_NAME" value="testMetodoNombreLibro" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,8 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.oop2.refactoring.parametros.salida.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AlquilerTest.alquilerLibroRegularMasDeDosDias" />
+        <item itemvalue="JUnit.AlquilerTest" />
+        <item itemvalue="JUnit.AlquilerTest.alquilerLibroNuevoLanzamiento" />
+        <item itemvalue="JUnit.AlquilerTest.testMetodoNombreLibro" />
+        <item itemvalue="JUnit.AlquilerTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +253,20 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/oop2_refactoring$AlquilerTest.ic" NAME="AlquilerTest Coverage Results" MODIFIED="1777383846818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/oop2_refactoring$AlquilerTest_alquilerLibroRegularMasDeDosDias.ic" NAME="AlquilerTest.alquilerLibroRegularMasDeDosDias Coverage Results" MODIFIED="1777383344016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/oop2_refactoring$AlquilerTest_test1.ic" NAME="AlquilerTest.test1 Coverage Results" MODIFIED="1777380065484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/oop2_refactoring$AlquilerTest_alquilerLibroNuevoLanzamiento.ic" NAME="AlquilerTest.alquilerLibroNuevoLanzamiento Coverage Results" MODIFIED="1777383589189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>oop2.tp3.ejercicio1.*</FILTER>
+    </SUITE>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
